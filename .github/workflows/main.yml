@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@vw
+        uses: actions/checkout@v2
 
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
